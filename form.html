@@ -1,0 +1,49 @@
+<DOCTYPE !html>
+<html>
+    <head>
+      <title>Registration form </title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="Register.html"> 
+            <input type="text" placeholder="Your Name" /><br/><br/>
+             <textarea rows="5" cols="25" placeholder="Address"></textarea><br/><br/> 
+             
+             Gender:
+                Male: <input type="radio" value="male" name="gender"/>
+                Female: <input type="radio" value="female" name="gender"/>
+                Others: <input type="radio" value="others" name="gender"/></br></br>
+                Date of Birth:<input type="date" /></br></br>
+
+             Languages Known:
+                Malayalam:<input type="checkbox" value="mal" checked/>
+                English:<input type="checkbox" value="eng" />
+                Hindi:<input type="checkbox" value="hin" /></br></br>
+
+            University:
+            <select>
+            <option>Kannur University</option>
+            <option>University of Calicut</option>
+            <option>MG University</option>
+            <option>kerala University</option>
+            </select></br></br>
+
+           Programms:
+               <input type="text" list="programms"/>
+               <datalist id="programms">
+                <option value="Computer Science"/> 
+                <option value="Physics"/> 
+                <option value="Chemistry"/> 
+                <option value="Mathematics"/> 
+                <option value="Statistics"/> 
+                <option value="Others"/>
+               </datalist>
+            </br></br>
+            <input type="email" placeholder="Your email" /><br></br>
+            <input type="password" placeholder="Password" /><br></br>
+            
+            
+           <input type="submit" value="Register" /><br></br>
+        </form>
+    </body>
+</html>
